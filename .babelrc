@@ -1,0 +1,17 @@
+// {  "presets": 
+//     // [["react-app", { "absoluteRuntime": false }]]
+//     [["babel-preset-react-app", false],
+//     "babel-preset-react-app/prod"]
+// }
+
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        [
+          "@babel/plugin-proposal-class-properties"
+        ]
+    ]
+}

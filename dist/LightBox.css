@@ -1,4 +1,4 @@
-.lightbox-container{
+/* .lightbox-container{
     position: absolute;
     left: 0;
     top: 0;
@@ -6,6 +6,10 @@
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, .5);
+} */
+
+h1{
+    height: 100vw;
 }
 
 .lightbox{
@@ -43,3 +47,17 @@
     align-items: center;
 
 }
+/* phone */
+@media screen and (max-width: 767px) {
+
+    .lightbox{
+        width: 90vw;
+        height: 30vh;
+        left: 5vw;
+        top: 35vh;
+    }
+
+}
+
+/* tablette */
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
